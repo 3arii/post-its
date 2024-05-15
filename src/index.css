@@ -1,0 +1,115 @@
+/* Other styles remain the same */
+
+.edit-textarea {
+  resize: none;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.edit-title {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-top: 20px;
+}
+
+.save-button {
+  background-color: transparent;
+  border: solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  border: solid hsla(0, 0%, 0%, 0.5);
+}
+
+.add-textarea {
+  resize: none;
+  border: 2px solid hsl(215, 100%, 50%);
+  border-radius: 5px;
+}
+
+.add-button {
+  border: none;
+  background-color: hsl(215, 100%, 50%);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post-it,
+.add-post-it {
+  width: 250px;
+  margin: 50px;
+  padding: 20px;
+  height: 250px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative; /* Make the post-it container relative */
+}
+
+.post-it-title {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.post-it-content {
+  font-family: monospace;
+}
+
+.add-post-it {
+  background-color: transparent;
+  border: 5px dashed hsl(215, 100%, 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-button {
+  background-color: hsl(215, 100%, 50%);
+  border: none;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  color: white;
+  font-size: 3rem;
+  font-family: monospace;
+}
+
+.new-button:hover {
+  background-color: hsl(215, 100%, 40%);
+}
+
+.delete-button,
+.edit-button {
+  position: absolute;
+  bottom: 10px;
+  border: none;
+  background-color: transparent;
+  color: hsla(0, 0%, 0%, 0.5);
+  cursor: pointer;
+}
+
+.delete-button {
+  left: 15px;
+  bottom: 15px;
+}
+
+.edit-button {
+  right: 15px;
+  bottom: 15px;
+}
+
+.information-text {
+  color: hsla(0, 0%, 0%, 0.5);
+  font-family: monospace;
+}
